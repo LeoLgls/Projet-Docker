@@ -1,9 +1,7 @@
-[Logo IUT Le Havre](https://www-iut.univ-lehavre.fr/wp-content/uploads/2019/03/cropped-logo_IUT_LE_HAVRE_260.png)
-
 ## Présentation SAE 2.03
 
 ### S2.03 Installation de services réseau 
-( [page de présentation de a SAE sur l'intranet](https://diw.iut.univ-lehavre.fr/pedago/info1/SAE_2_03/index.xml) )
+_([page de présentation de a SAE sur l'intranet](https://diw.iut.univ-lehavre.fr/pedago/info1/SAE_2_03/index.xml))_
 
   Au début de la SAE, nous avons repris les TP sur Git et nous avons fini les TP 4 et 5.
   
@@ -26,8 +24,9 @@ _**Plan de notre présentation**_ :
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
+
 `System.out.println( "Rapport de SAE" );`
+
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
