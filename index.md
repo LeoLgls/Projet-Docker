@@ -1,34 +1,33 @@
+[Logo IUT Le Havre](https://www-iut.univ-lehavre.fr/wp-content/uploads/2019/03/cropped-logo_IUT_LE_HAVRE_260.png)
+
 ## Présentation SAE 2.03
 
-You can use the [editor on GitHub](https://github.com/LeoLgls/docker-sae203/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### S2.03 Installation de services réseau 
+( [page de présentation de a SAE sur l'intranet](https://diw.iut.univ-lehavre.fr/pedago/info1/SAE_2_03/index.xml) )
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  Au début de la SAE, nous avons repris les TP sur Git et nous avons fini les TP 4 et 5.
+  
+  Ensuite, nous avons vu l'introduction à Docker puis à Dockerfile. 
+  
+_**Plan de notre présentation**_ :
+```
+1.
+  1.1.
+  1.2.
+2.
+  2.1.
+    2.1.1.
+    2.1.2.
+  2.2
+3.
+[etc...]
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
-
-```
-C'est le deuxième tableau / cadre
-```
+`System.out.println( "Rapport de SAE" );`
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
