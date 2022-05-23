@@ -36,7 +36,7 @@ Pour finir le projet, il ne nous restait plus qu'à faire le fichier README.md e
 
 ### II.4  Ajouter plus de piment au projet
 
-Comme nous avions finis le projet plus vite que prévu et pour rendre le résultat final plus intéressant, nous avons réfléchi à un nouveau concept qui est basé sur le modèle de notre projet déjà existant. Cependant, la personne qui lance le fichier dockerfile a la possibilité de modifier les animés et les musiques qu'elle souhaite mettre sur le site. Pour cela, la personne va télécharger les animés et les musiques qu'elle souhaite ajouté. Ensuite, elle va mettre dans un fichier "Musique" toutes les musiques téléchargé et pareil pour le dossier "Anime". Ces deux dossiers vont être contenu dans un dossier "Vidéo" qui va lui-même se trouver dans un dossier "html".
+Comme nous avions finis le projet plus vite que prévu et pour rendre le résultat final plus intéressant, nous avons réfléchi à un nouveau concept qui est basé sur le modèle de notre projet déjà existant. Cependant, la personne qui lance le fichier dockerfile a la possibilité de modifier les animés et les musiques qu'elle souhaite mettre sur le site. Pour cela, la personne va télécharger les animés et les musiques qu'elle souhaite ajouté. Ensuite, elle va mettre dans un fichier ```Musique``` toutes les musiques téléchargé et pareil pour le dossier ```Anime```. Ces deux dossiers vont être contenu dans un dossier ```Vidéo``` qui va lui-même se trouver dans un dossier ```html```.
 
 << on peut ajouter une image de ce que donne l'arborescence de tous les dossiers >>
 
