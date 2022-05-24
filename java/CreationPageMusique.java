@@ -50,7 +50,7 @@ public class CreationPageMusique{
 
         pw.print(html);
 
-        // Ajout de section pour chaque vidéos présentes dans le Dossier Video/Musique
+        // Ajout de section pour chaque videos presentes dans le Dossier Video/Musique
         for(String tmp : tabNomVideo){
 
             String[] nom = tmp.split(Pattern.quote("."));

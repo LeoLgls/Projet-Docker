@@ -52,7 +52,7 @@ public class CreationPageAnime{
 
         pw.print(html);
 
-        // Ajout de section pour chaque vidéos présentes dans le Dossier Video/Anime
+        // Ajout de section pour chaque videos presentes dans le Dossier Video/Anime
         for(String tmp : tabNomVideo){
 
             nom = tmp.split(Pattern.quote("."));
