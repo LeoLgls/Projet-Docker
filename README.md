@@ -28,3 +28,25 @@ docker run -p 8080:80 debian-video-img
 
 - Vérifier que l'application est en cours d'exécution. Pour ce faire, ouvrez un navigateur et tapez 
 `localhost:8080`
+
+- Vérifier que le conteneur associé est actif:
+```shell
+docker ps
+```
+
+- Las sortie de `docker ps` doit être similaire à :
+```shell
+CONTAINER ID   IMAGE             COMMAND                  CREATED         STATUS         PORTS                  NAMES
+ce2f7185bbd9   stock-video-img   "/bin/sh -c 'nginx -…"   6 minutes ago   Up 6 minutes   0.0.0.0:8080->80/tcp   nginx-video
+```
+
+- Vous pouvez stopper le conteneur avec la commande suivante (les dernières chiffres sont le code de hachage affiché par docker ps, ici : `ce2f7185bbd9` ou vous pouvez remplacer par le nom , ici : `nginx-video`):
+```shell
+docker stop ce2f7185bbd9
+```
+
+- Si vous souhaitez supprimer le conteneur, tapez :
+```shell
+docker rm ce2f7185bbd9
+```
+
