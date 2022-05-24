@@ -32,6 +32,6 @@ Pour finir le projet, il ne nous restait plus qu'à faire le fichier README.md e
 
 Comme nous avions finis le projet plus vite que prévu et pour rendre le résultat final plus intéressant, nous avons réfléchi à un nouveau concept qui est basé sur le modèle de notre projet déjà existant. Cependant, la personne qui lance le fichier dockerfile a la possibilité de modifier les animés et les musiques qu'elle souhaite mettre sur le site. Pour cela, la personne va télécharger les animés et les musiques qu'elle souhaite ajouté. Ensuite, elle va mettre dans un fichier ```Musique``` toutes les musiques téléchargé et pareil pour le dossier ```Anime```. Ces deux dossiers vont être contenu dans un dossier ```Vidéo``` qui va lui-même se trouver dans un dossier ```html```.
 
-![drawing](./tree.png "Arborscence du dossier docker-sae203")
+![drawing](./image/tree.png "Arborscence du dossier docker-sae203")
 
 Grâce à un fichier java, nous allons créer notre page html en fonction des vidéos qui se trouvent dans les différents dossiers. Lors de l'exécution du fichier dockerfile, toutes les vidéos vont êtres téléchargées et le fichier java va-t-être exécuté. Il ne reste plus qu'à vérifier si le site fonctionne correctement et à finir notre projet. Une fois le site fonctionnel, nous avons ajouté notre fichier README.md et le dossier Docker au repository ```docker-sae203``` afin de conclure notre projet.
