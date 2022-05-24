@@ -10,7 +10,7 @@ Nous avons réalisé un site de vidéo à la demande grâce à Docker.
 
 ### 1.Introduction 
 
-Comme nous l'avons déjà dit en introduction de présentation de notre projet, nous avons fait l'introduction à Git ey à Docker. Nous avons fait tous les tp dans le but de pouvoir réutiliser ce que l'on a appris dans le contexte de la SAE. Grâce à GitHub, nous avons créé un repository qui nous a permis de partager nos fichiers et de les ranger. Dans la main on retrouve le fichier README.md et le Dockerfile et dans le dossier gh-pages il y a notre site web réalisé directement sur gitbub.com.
+Pour notre projet, nous avons fait l'introduction à Git et à Docker. Nous avons fait tous les tp dans le but de pouvoir réutiliser ce que l'on a appris dans le contexte de la SAE. Grâce à GitHub, nous avons créé un repository qui nous a permis de partager nos fichiers et de les ranger. Dans la main on retrouve le fichier README.md et le Dockerfile et dans le dossier gh-pages il y a notre site web réalisé directement sur gitbub.com.
 
 ### 2.Une première idée
 
