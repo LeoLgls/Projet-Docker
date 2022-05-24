@@ -23,7 +23,7 @@ docker build -t debian-video-img .
 
 - Lancer le service :
 ```shell
-docker run -p 8080:80 debian-video-img
+docker run -d -p 8080:80 debian-video-img
 ```
 
 - Vérifier que l'application est en cours d'exécution. Pour ce faire, ouvrez un navigateur et tapez 
