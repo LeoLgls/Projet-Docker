@@ -2,9 +2,13 @@
 
 ## I. Présentation de notre projet
 
-### 1.Notre projet 
+### 1.Première Demonstration
 
-Nous avons réalisé un site de vidéo à la demande grâce à Docker.
+Pour notre projet nous avons donc réaliser un site de vidéo à la demande centré sur les anime et la musique grâce à Docker. Nous allons donc tout d’abord vous faire une première démonstration dans laquelle nous allons vous montrez le site dans sa globalité. C’est-à-dire que le site marche et que les vidéos déjà présente sur le site marchent.
+
+### 2.Deuxième Demonstration
+
+Ensuite dans une deuxième démonstration nous allons vous montrez que la personne lançant le dockerfile peut rajouter des vidéos dans les dossier prévues à cet effet et que celles-ci seront présentes sur le site car notre fichier html est généré grâce à un fichier java. 
   
 ## II. Rapport de notre travail tout au long de la SAE
 
