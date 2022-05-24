@@ -4,7 +4,7 @@
 
 ### 1.Première Demonstration
 
-Pour notre projet nous avons donc réaliser un site de vidéo à la demande centré sur les anime et la musique grâce à Docker. Nous allons donc tout d’abord vous faire une première démonstration dans laquelle nous allons vous montrez le site dans sa globalité. C’est-à-dire que le site marche et que les vidéos déjà présente sur le site marchent.
+Pour notre projet nous avons donc réaliser un site de vidéo à la demande centré sur les anime et la musique grâce à Docker. Nous allons donc tout d’abord vous faire une première démonstration dans laquelle nous allons vous montrez le site dans sa globalité. C’est-à-dire que le site marche et que les vidéos déjà présente sur le site sont fonctionnelles.
 
 ### 2.Deuxième Demonstration
 
