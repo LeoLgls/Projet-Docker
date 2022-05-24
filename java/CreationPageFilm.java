@@ -2,25 +2,23 @@ import java.io.PrintWriter;
 import java.util.regex.Pattern;
 import java.io.File;
 
-public class CreationPageAnime{
+public class CreationPageFilm{
 
     public static void generer(){
 
         PrintWriter pw = null;
 
-        String html =""; 
-        String section ="";
+        String html, section;
 
         String[] tabNomVideo;
-        String[] nom;
 
-        File f = new File("../var/www/html/Video/Anime");
+        File f = new File("../var/www/html/Video/Film");
 
         tabNomVideo = f.list();
 
 
   		try{ 
-            pw = new PrintWriter ( new File ( "../var/www/html/Anime.html" ), "utf-8" ); 
+            pw = new PrintWriter ( new File ( "../var/www/html/Film.html" ), "utf-8" ); 
         }catch (Exception e){e.printStackTrace();}
 
         //Creation d'une grande partie de la page : head + body, header
@@ -30,7 +28,7 @@ public class CreationPageAnime{
         "\t<head>\n" +
         "\t\t<link rel=\"stylesheet\" href=\"style.css\" media=\"all\" type=\"text/css\"/>\n" +
         "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css\">\n" +
-		"\t\t<title>Streaming</title>\n" +
+		"\t\t<title>Docker Streaming</title>\n" +
 	    "\t</head>\n"+
         "\n"+
 	    "\t<body>\n" +
@@ -53,10 +51,10 @@ public class CreationPageAnime{
 
         pw.print(html);
 
-        // Ajout de section pour chaque videos presentes dans le Dossier Video/Anime
+        // Ajout de section pour chaque videos presentes dans le Dossier Video/Film
         for(String tmp : tabNomVideo){
 
-            nom = tmp.split(Pattern.quote("."));
+            String[] nom = tmp.split(Pattern.quote("."));
 
             section = "" +
             "\t\t<br/>\n"   +
@@ -64,8 +62,8 @@ public class CreationPageAnime{
             "\t\t\t<div class=\"Video\">\n" +
             "\t\t\t\t<div>" + nom[0].replace('_', ' ') + "</div>\n" +
             "\t\t\t\t<video width=\"640\" height=\"480\" controls>\n" +
-            "\t\t\t\t\t<source src=\"./Video/Anime/"+ tmp + "\" type=\"video/mp4\"/>\n"+
-            "\t\t\t\t\t<source src=\"./Video/Anime/"+ tmp + "\" type=\"video/ogg\"/>\n"+
+            "\t\t\t\t\t<source src=\"./Video/Film/"+ tmp + "\" type=\"video/mp4\"/>\n"+
+            "\t\t\t\t\t<source src=\"./Video/Film/"+ tmp + "\" type=\"video/ogg\"/>\n"+
             "\t\t\t\t\tYour browser does not support the video tag.\n" +
             "\t\t\t\t</video>\n" +
             "\t\t\t</div>\n"     + 

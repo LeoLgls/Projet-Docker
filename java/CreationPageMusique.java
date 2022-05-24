@@ -40,6 +40,7 @@ public class CreationPageMusique{
         "\t\t\t\t\t<div id=\"navbarSupportedContent\" class=\"collapse navbar-collapse\">\n" +
         "\t\t\t\t\t\t<ul class=\"navbar-nav ml-auto\">\n" +
         "\t\t\t\t\t\t\t<li class=\"nav-item\"><a href=\"index.html\" class=\"nav-link text-uppercase font-weight-bold\">Accueil</a></li>\n"   +
+        "\t\t\t\t\t\t\t<li class=\"nav-item\"><a href=\"Film.html\" class=\"nav-link text-uppercase font-weight-bold\">Film</a></li>\n"       +
         "\t\t\t\t\t\t\t<li class=\"nav-item\"><a href=\"Anime.html\" class=\"nav-link text-uppercase font-weight-bold\">Anime</a></li>\n"     +
         "\t\t\t\t\t\t\t<li class=\"nav-item\"><a href=\"Musique.html\" class=\"nav-link text-uppercase font-weight-bold\">Musique</a></li>\n" +
         "\t\t\t\t\t\t</ul>\n" +
